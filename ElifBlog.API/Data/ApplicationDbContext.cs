@@ -1,7 +1,5 @@
 ﻿using ElifBlog.API.Data.Entity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
-using System.Reflection.Metadata;
 
 namespace ElifBlog.API.Data
 {
@@ -9,7 +7,7 @@ namespace ElifBlog.API.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
 
         public DbSet<Author> AuthorTable { get; set; }

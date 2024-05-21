@@ -1,9 +1,6 @@
 ﻿using ElifBlog.API.Data;
 using ElifBlog.API.Data.Entity;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Text.Json.Serialization;
 
 namespace ElifBlog.API.Controllers
 {
@@ -38,11 +35,11 @@ namespace ElifBlog.API.Controllers
         public IActionResult EditAuthor([FromQuery] int Id, [FromBody] Author author)
         {
             var _author = applicationDbContext.AuthorTable.Where(x => x.Id == Id).FirstOrDefault();
-            if(_author is null)
+            if (_author is null)
                 return NotFound($"{Id} ye sahip yazar bulunamadı...");
 
-            _author.Name=author.Name;
-            _author.Surname=author.Surname;
+            _author.Name = author.Name;
+            _author.Surname = author.Surname;
 
             applicationDbContext.AuthorTable.Update(_author);
             applicationDbContext.SaveChanges();

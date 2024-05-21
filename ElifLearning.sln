@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{F5B64CEA-21BC-47B7-A948-C4F71B67A5C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{42F922BB-38EF-4732-83A5-6FD1A6AA5305}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElifBlog.API", "ElifBlog.API\ElifBlog.API.csproj", "{BDEE5A2B-BB2A-4F97-A41F-DC3501A4B7D6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{366B9EDB-8B29-401B-84BC-A096C2E57661}"
@@ -21,10 +19,6 @@ Global
 		{F5B64CEA-21BC-47B7-A948-C4F71B67A5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B64CEA-21BC-47B7-A948-C4F71B67A5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B64CEA-21BC-47B7-A948-C4F71B67A5C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{42F922BB-38EF-4732-83A5-6FD1A6AA5305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42F922BB-38EF-4732-83A5-6FD1A6AA5305}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42F922BB-38EF-4732-83A5-6FD1A6AA5305}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42F922BB-38EF-4732-83A5-6FD1A6AA5305}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BDEE5A2B-BB2A-4F97-A41F-DC3501A4B7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BDEE5A2B-BB2A-4F97-A41F-DC3501A4B7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDEE5A2B-BB2A-4F97-A41F-DC3501A4B7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU

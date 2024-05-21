@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace ConsoleApp.Models
+﻿namespace ConsoleApp.Models
 {
     public class Blog : BaseAuditable
     {
