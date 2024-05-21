@@ -1,5 +1,4 @@
 ﻿using ConsoleApp.Models;
-using System.Collections;
 
 List<Author> authors = new();
 
@@ -17,7 +16,7 @@ blogs.Add(new Blog { Id = 4, Title = "Deneme yazısı 4", AuthorId = 2 });
 foreach (Author author in authors)
 {
     author.WriteToConsole();
-    foreach (Blog blog in blogs.Where(x=>x.AuthorId == author.Id).ToList())
+    foreach (Blog blog in blogs.Where(x => x.AuthorId == author.Id).ToList())
     {
         blog.WriteToConsole();
     }

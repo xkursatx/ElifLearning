@@ -5,7 +5,7 @@
     {
         public BenimServisim()
         {
-             this.ServiceId = Guid.NewGuid();
+            this.ServiceId = Guid.NewGuid();
         }
         public Guid ServiceId { get; }
         public int Sayac { get; set; } = 0;

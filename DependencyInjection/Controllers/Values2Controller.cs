@@ -10,7 +10,7 @@ namespace DependencyInjection.Controllers
     {
         private readonly BenimServisim benimServisim;
 
-        public Values2Controller([FromKeyedServices("scopedservisim")]BenimServisim benimServisim)
+        public Values2Controller([FromKeyedServices("scopedservisim")] BenimServisim benimServisim)
         {
             this.benimServisim = benimServisim;
         }
