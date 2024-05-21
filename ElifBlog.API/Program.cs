@@ -1,13 +1,13 @@
 using ElifBlog.API.Data;
 using Microsoft.EntityFrameworkCore;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlite($"Data Source=Data/Db/Blog.db");
 });
-
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
