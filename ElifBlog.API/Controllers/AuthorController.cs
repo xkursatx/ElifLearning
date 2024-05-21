@@ -14,7 +14,7 @@ namespace ElifBlog.API.Controllers
         private readonly ApplicationDbContext applicationDbContext;
 
         public AuthorController(
-            ApplicationDbContext applicationDbContext
+                ApplicationDbContext applicationDbContext
             )
         {
             this.applicationDbContext = applicationDbContext;
@@ -29,7 +29,7 @@ namespace ElifBlog.API.Controllers
         [HttpPost("AddAuthor")]
         public IActionResult AddAuthor([FromBody] Author author)
         {
-            applicationDbContext.AuthorTable.Add(author);
+            applicationDbContext.AuthorTable.Update(author);
             applicationDbContext.SaveChanges();
             return Ok(author);
         }
